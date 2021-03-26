@@ -23,6 +23,8 @@ a {
   padding-bottom: .2em;
 }
 
+
+
 /* header styles */
 header {
   color: white;
@@ -56,7 +58,7 @@ nav ul {
   margin: 0;
 }
 nav ul li {
-  font-size: .8em;
+   font-size: .8em;
   text-transform: uppercase;
   letter-spacing: .2em;
 }
@@ -87,22 +89,23 @@ p.more {
   font-size: .8em;
   clear: left;
 }
-
-img [src*="bread"] {
-  -webkit-shape-outside: ellipse (130px 95px at 50% 50%);
-  shape-outside: ellipse (130px 95px at 50% 50%) ;
-}
 main img {
   float: left;
   margin: 0 1em 1em 0;
 }
 
-img [src*="muffin"] {
-  margin-left: 50px;
-  -webkit-shape-outside: circle (110px);
-  shape-outside: polygon (0px 0px, 197px 0px, 241px 31px, 241px 68px, 226px 82px, 219px 131px, 250px 142px, 250px 158px, 0px 158px);
+img[src*="bread"] {
+  -webkit-shape-outside: ellipse(130px 95px at 50% 50%);
+  shape-outside: ellipse(130px 95px at 50% 50%);
 }
 
+img[src*="muffin"] {
+  margin-left: 50px;
+  -webkit-shape-outside: circle(125px);  
+  shape-outside: circle(125px);
+  -webkit-shape-outside: polygon(0px 0px, 197px 0px, 241px 31px, 241px 68px, 226px 82px, 219px 131px, 250px 142px, 250px 158px, 0px 158px);
+  shape-outside: polygon(0px 0px, 197px 0px, 241px 31px, 241px 68px, 226px 82px, 219px 131px, 250px 142px, 250px 158px, 0px 158px);  
+}
 
 /* aside "hours" styles */
 aside {
@@ -119,18 +122,20 @@ footer {
   text-align: center;
   font-size: .8em;
   padding: 1em;
-}#award {
-  position: absolute;
-  top: 30px;
+}
+#award { 	
+  position: fixed; 	
+  top: 30px; 	
   left: 50px;
 }
-
 h2 {
-  font-family: 'Stint Ultra Expanded', Geprgia, serif;
+  font-family: 'Stint Ultra Expanded', Georgia, serif;
 }
 .day {
   color: #783F27;
   font-family: verdana, sans-serif;
   font-size: .8em;
   text-transform: uppercase;
-}/* CSS Document */
+}
+/* CSS Document */
+
