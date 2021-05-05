@@ -1,0 +1,27 @@
+    body {
+        background-color: #FFFFE0;
+        text-align: center;
+    }
+    head {
+        text-align: center;
+        background-color: #F9AB33;
+    }
+    h1 {
+        text-align: center;
+        display:inline
+    }
+    h2 {
+        text-align: center;
+    }
+    p {
+        text-align: center;
+    }
+    footer {
+        text-align: center;
+    }
+    a:link, a:visited { color: #DC6903; }
+    a:focus, a:hover, a:active { color: #F9AB33; }
+    li {
+        text-align:left;
+    }
+    
